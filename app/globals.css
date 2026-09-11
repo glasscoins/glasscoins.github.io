@@ -11,7 +11,10 @@ body { color: #ededed; -webkit-font-smoothing: antialiased; -moz-osx-font-smooth
 button { margin: 0; font: inherit; letter-spacing: inherit; color: inherit; }
 img { max-width: 100%; }
 img, canvas, svg { vertical-align: middle; }
-.landing { min-height: 100svh; display: grid; place-items: center; background: #000; overflow: clip; }
+.landing { min-height: 100svh; display: grid; grid-template-rows: 1fr auto; place-items: center; padding-bottom: max(24px, env(safe-area-inset-bottom)); background: #000; overflow: clip; }
+.paper-link { display: inline-flex; align-items: center; min-height: 44px; padding: 8px 12px; color: #aaa; font-size: 14px; text-underline-offset: .25em; text-decoration-color: #555; }
+.paper-link:hover { color: #ededed; text-decoration-color: currentColor; }
+.paper-link:focus-visible { outline: 1px solid #8c999f; outline-offset: 4px; border-radius: 2px; }
 .coin-surface {
   --lens-x: 50%;
   --lens-y: 50%;

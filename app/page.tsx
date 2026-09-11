@@ -155,6 +155,9 @@ export default function Home() {
         </span>
         <canvas ref={canvas} className="glass-canvas" aria-hidden="true" />
       </button>
+      <a className="paper-link" href="https://eprint.iacr.org/2025/068">
+        Shielded CSV paper
+      </a>
       <svg className="filter-defs" aria-hidden="true">
         <defs>
           <filter id="fallback-liquid" x="-10%" y="-10%" width="120%" height="120%">
