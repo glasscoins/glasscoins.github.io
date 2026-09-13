@@ -155,9 +155,15 @@ export default function Home() {
         </span>
         <canvas ref={canvas} className="glass-canvas" aria-hidden="true" />
       </button>
-      <a className="paper-link" href="https://eprint.iacr.org/2025/068">
-        Shielded CSV paper
-      </a>
+      <nav className="resource-links" aria-label="Resources">
+        <a className="resource-link" href="https://eprint.iacr.org/2025/068">
+          Shielded CSV Paper
+        </a>
+        <span aria-hidden="true">|</span>
+        <a className="resource-link" href="https://t.me/bitVM_chat">
+          Telegram Group
+        </a>
+      </nav>
       <svg className="filter-defs" aria-hidden="true">
         <defs>
           <filter id="fallback-liquid" x="-10%" y="-10%" width="120%" height="120%">
