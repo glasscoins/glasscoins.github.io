@@ -16,6 +16,10 @@ img, canvas, svg { vertical-align: middle; }
 .resource-link { display: inline-flex; align-items: center; min-height: 44px; padding: 8px 12px; color: #aaa; text-underline-offset: .25em; text-decoration-color: #555; }
 .resource-link:hover { color: #ededed; text-decoration-color: currentColor; }
 .resource-link:focus-visible { outline: 1px solid #8c999f; outline-offset: 4px; border-radius: 2px; }
+@media (max-width: 480px) {
+  .resource-links { flex-direction: column; }
+  .resource-links > span { display: none; }
+}
 .coin-surface {
   --lens-x: 50%;
   --lens-y: 50%;

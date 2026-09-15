@@ -156,6 +156,10 @@ export default function Home() {
         <canvas ref={canvas} className="glass-canvas" aria-hidden="true" />
       </button>
       <nav className="resource-links" aria-label="Resources">
+        <a className="resource-link" href="https://hackmd.io/H7BO61ART0CazAh752K2eQ">
+          Glass Coins Spec
+        </a>
+        <span aria-hidden="true">|</span>
         <a className="resource-link" href="https://eprint.iacr.org/2025/068">
           Shielded CSV Paper
         </a>
